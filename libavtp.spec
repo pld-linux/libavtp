@@ -15,7 +15,7 @@ Source0:	https://github.com/Avnu/libavtp/archive/v%{version}/%{name}-%{version}.
 URL:		https://github.com/AVnu/libavtp
 BuildRequires:	meson >= 0.46.0
 BuildRequires:	ninja >= 1.8.2
-BuildRequires:	rpmbuild(macros) >= 1.736
+BuildRequires:	rpmbuild(macros) >= 2.042
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
